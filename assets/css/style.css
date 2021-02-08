@@ -5,6 +5,7 @@
 body {
   background-image: url(../img/Back_Blur.jpg);
   width: 100%;
+  background-size: cover;
 }
 .logolimeo img {
   width: 10%;
@@ -69,5 +70,6 @@ input {
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-
-/* ANIME */
+#submit:focus {
+  outline: none;
+}
