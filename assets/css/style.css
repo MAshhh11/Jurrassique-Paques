@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "FredokaOne-Regular";
+  src: url(../fonts/FredokaOne-Regular.ttf);
+}
+body {
+  background-image: url(../img/Back_Blur.jpg);
+  width: 100%;
+}
+.logolimeo img {
+  width: 10%;
+  position: relative;
+  left: 80%;
+  padding: 2em;
+}
+.main img {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  z-index: 95;
+}
+.egg {
+  width: 100%;
+  position: absolute;
+  top: 1%;
+  z-index: 90;
+}
+.forminput {
+  display: flex;
+}
+input {
+  position: absolute;
+  left: 31%;
+  z-index: 99;
+  top: 90%;
+  font-family: "FredokaOne-Regular";
+  color: black;
+  padding: 1em;
+  font-size: 1.5em;
+  border: 1px solid white;
+}
+#email {
+  width: 31%;
+  border-radius: 50px;
+}
+#email:focus {
+  outline: none;
+}
+
+#submit {
+  position: absolute;
+  left: 60%;
+  top: 90%;
+  z-index: 99;
+  width: 8%;
+  background-color: orange;
+  color: white;
+  background-image: url(../img/SVG/icon_oeuf.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
+  border-radius: 0px 40px 40px 0px;
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+}
+#submit:hover {
+  border: 3px solid white;
+  text-shadow: 0px 0px 30px white;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+/* ANIME */
