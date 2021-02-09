@@ -1,13 +1,13 @@
-/* large devices */
+/* ---------------Large devices--------------- */
 
 @media only screen and (min-width: 992px) {
 }
-/* Medium devices (landscape tablets, 768px and up) */
+/* ---------------Medium devices (landscape tablets, 768px and up) */
 
 @media screen and (max-width: 768px) {
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* ---------------Extra small devices (phones, 600px and down) */
 
 @media screen and (max-width: 600px) {
 }
