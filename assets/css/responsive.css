@@ -1,13 +1,87 @@
-/* ---------------Large devices--------------- */
-
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+}
 @media only screen and (min-width: 992px) {
 }
-/* ---------------Medium devices (landscape tablets, 768px and up) */
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* ---------------HEADER--------------- */
+  .logolimeo img {
+    width: 30%;
+    left: 50%;
+    padding: 2em;
+  }
+  /* ---------------SECTION--------------- */
+  .main img {
+    width: 100%;
+    top: 20%;
+    left: -1%;
+  }
+  .egg {
+    width: 200%;
+    top: 15%;
+    left: -50%;
+  }
+  /* ---------------FORM--------------- */
+  input {
+    left: 15%;
+    z-index: 99;
+    top: 85%;
+    padding: 1.5em;
+    font-size: 1.5em;
+  }
+  /* EMAIL FORM */
+  #email {
+    width: 60%;
+  }
 
-@media screen and (max-width: 768px) {
+  /* SUBMIT EGG BUTTON */
+  #submit {
+    left: 65%;
+    top: 85%;
+    width: 20%;
+  }
 }
 
-/* ---------------Extra small devices (phones, 600px and down) */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* ---------------HEADER--------------- */
+  .logolimeo img {
+    width: 30%;
+    left: 50%;
+    padding: 2em;
+  }
+  /* ---------------SECTION--------------- */
+  .main img {
+    width: 100%;
+    top: 20%;
+    left: -1%;
+  }
+  .egg {
+    width: 200%;
+    top: 15%;
+    left: -50%;
+  }
+  /* ---------------FORM--------------- */
+  input {
+    left: 15%;
+    z-index: 99;
+    top: 60%;
+    padding: 1em;
+    font-size: 1em;
+  }
+  /* EMAIL FORM */
+  #email {
+    width: 60%;
+  }
 
-@media screen and (max-width: 600px) {
+  /* SUBMIT EGG BUTTON */
+  #submit {
+    left: 60%;
+    top: 60%;
+    width: 25%;
+  }
 }
