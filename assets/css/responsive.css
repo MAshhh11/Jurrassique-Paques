@@ -1,4 +1,5 @@
-/* Large devices (laptops/desktops*/
+/* large devices */
+
 @media only screen and (min-width: 992px) {
   body {
     background-size: cover;
@@ -7,7 +8,7 @@
     position: absolute;
     top: 90%;
     padding: 1em;
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
   #submit {
     position: absolute;
@@ -27,7 +28,6 @@
     padding: 2em;
   }
 }
-
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media screen and (max-width: 768px) {
@@ -35,7 +35,7 @@
     position: absolute;
     top: 50%;
     padding: 1em;
-    font-size: 1.5em;
+    font-size: 1em;
   }
   #submit {
     position: absolute;
